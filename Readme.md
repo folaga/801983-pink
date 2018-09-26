@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Ekaterina Chernetsova](https://up.htmlacademy.ru/adaptive/15/user/801983).
-* Наставник: `Неизвестно`.
+* Наставник: [Юлька Долгун](https://htmlacademy.ru/profile/id42333.
 
 ---
 
