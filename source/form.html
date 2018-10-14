@@ -38,73 +38,74 @@
         <div class="form__wrapper">
           <form class="form__plain" action="https://echo.htmlacademy.ru" method="post">
             <fieldset class="form__fields form__fields--input">
-              <p class="form__item">
-                <label for="family-name">Фамилия</label>
-                <input class="form__text-fields" type="text" id="family-name" placeholder="Укажите фамилию *">
+              <p class="form__item input-plain">
+                <label class="input-plain__label" for="family-name">Фамилия</label>
+                <input class="input-plain__text-field" type="text" id="family-name" placeholder="Укажите фамилию *">
               </p>
-              <p class="form__item">
-                <label for="first-name">Имя</label>
-                <input class="form__text-fields" type="text" id="first-name" placeholder="Укажите имя *">
+              <p class="form__item input-plain">
+                <label class="input-plain__label" for="first-name">Имя</label>
+                <input class="input-plain__field" type="text" id="first-name" placeholder="Укажите имя *">
               </p>
-              <p class="form__item">
-                <label for="second-name">Отчество</label>
-                <input class="form__text-fields" type="text" id="second-name" placeholder="Ну и отчество тоже *">
+              <p class="form__item input-plain">
+                <label class="input-plain__label" for="second-name">Отчество</label>
+                <input class=" input-plain__text-field" type="text" id="second-name" placeholder="Ну и отчество тоже *">
               </p>
             </fieldset>
+
             <fieldset class="form__fields form__fields--bulletts">
-              <p class="form__subtext">Ваши безбашенные достижения в путешествии
-              </p>
+              <legend class="form__subtext">Ваши безбашенные достижения в путешествии
+              </legend>
               <div class="form__bullett">
-                <p class="form__item"><input class="form__checkbox" type="checkbox" id="selfy" checked>
-                  <label class="form__bullett-label" for="selfy">Сделал селфи с акулой</label>
+                <p class="form__item input-checkbox"><input class="input-checkbox__check" type="checkbox" id="selfy" checked>
+                  <label class="input-checkbox__label" for="selfy">Сделал селфи с акулой</label>
                 </p>
-                <p class="form__item"><input class="form__checkbox" type="checkbox" id="beach" checked>
-                  <label class="form__bullett-label" for="beach">Обгорел на пляже</label>
+                <p class="form__item input-checkbox"><input class="input-checkbox__check" type="checkbox" id="beach" checked>
+                  <label class="input-checkbox__label" for="beach">Обгорел на пляже</label>
                 </p>
-                <p class="form__item"><input class="form__checkbox" type="checkbox" id="norris">
-                  <label class="form__bullett-label" for="norris">Видел Чака Норриса</label>
+                <p class="form__item input-checkbox"><input class="input-checkbox__check" type="checkbox" id="norris">
+                  <label class="input-checkbox__label" for="norris">Видел Чака Норриса</label>
                 </p>
-                <p class="form__item"><input class="form__checkbox" type="checkbox" id="gifts">
-                  <label class="form__bullett-label" for="gifts">Накупил сувениров</label>
+                <p class="form__item input-checkbox"><input class="input-checkbox__check" type="checkbox" id="gifts">
+                  <label class="input-checkbox__label" for="gifts">Накупил сувениров</label>
                 </p>
-                <p class="form__item"><input class="form__checkbox" type="checkbox" id="torre" checked>
-                  <label class="form__bullet-label" for="torre">Удержал башню</label>
+                <p class="form__item input-checkbox"><input class="input-checkbox__check" type="checkbox" id="torre" checked>
+                  <label class="input-checkbox__label" for="torre">Удержал башню</label>
                 </p>
-                <p class="form__item"><input class="form__checkbox" type="checkbox" id="hotel">
-                  <label class="form__bullett-label" for="hotel">Разгромил отель</label>
+                <p class="form__item input-checkbox"><input class="input-checkbox__check" type="checkbox" id="hotel">
+                  <label class="input-checkbox__label" for="hotel">Разгромил отель</label>
                 </p>
               </div>
             </fieldset>
             <fieldset class="form__fields form__fields--input">
               <p class="form__item">
-                <label for="family-name">Номер телефона</label>
-                <input class="phone" type="tel" id="phone" placeholder="Номер, пожалуйста">
+                <label  class="input-plain__label" for="family-name">Номер телефона</label>
+                <input class=" input-plain__text-field" type="tel" id="phone" placeholder="Номер, пожалуйста">
               </p>
               <p class="form__item">
-                <label for="email">Адрес почты</label>
-                <input class="form__text-fields" type="email" id="email" placeholder="Введите почту *">
+                <label  class="input-plain__label" for="email">Адрес почты</label>
+                <input  class=" input-plain__text-field" type="email" id="email" placeholder="Введите почту *">
               </p>
             </fieldset>
             <fieldset class="form__fields form__fields--bulletts">
-              <p class="form__subtext">C каким приложением путешествовали?
-              </p>
+              <legend class="form__subtext">C каким приложением путешествовали?
+              </legend>
               <div class="form__bullett">
-                <p class="form__item"><input class="form__radio" type="radio" id="ios" checked>
-                  <label class="form__radio-label" for="ios">Pink для iOS</label>
+                <p class="form__item input-radiobutton"><input class="form__radio" type="radio" id="ios" checked>
+                  <label class="input-radiobutton__radio-label" for="ios">Pink для iOS</label>
                 </p>
-                <p class="form__item"><input class="form__radio" type="radio" id="android">
-                  <label class="form__radio-label" for="android">Pink на Android</label>
+                <p class="form__item input-radiobutton"><input class="form__radio" type="radio" id="android">
+                  <label class="input-radiobutton__radio-label" for="android">Pink на Android</label>
                 </p>
-                <p class="form__item"><input class="form__radio" type="radio" id="win">
-                  <label class="form__radio-label" for="win">Windows Phone</label>
+                <p class="form__item input-radiobutton"><input class="form__radio" type="radio" id="win">
+                  <label class="input-radiobutton__radio-label" for="win">Windows Phone</label>
                 </p>
               </div>
             </fieldset>
             <fieldset class="form__fields form__fields--input">
-              <p class="form__subtext">Опишите свои эмоции
-              </p>
-              <p class="form__item">
-                <textarea class="form__text-fields form__text-fields--area" rows="4" name="emotions">
+              <legend class="form__subtext">Опишите свои эмоции
+              </legend>
+              <p class="form__item input-plain">
+                <textarea class=" input-plain__text-field " rows="4" name="emotions">
                 </textarea>
               </p>
             </fieldset>
@@ -121,8 +122,8 @@
         <div class="footer-inner__logo">
           <img class="footer-inner__pink" src="img/logotype-blue-tablet-svg.png" alt="PINK logo">
         </div>
-        <div class="footer-inner__social social">
-          <ul class="social__list">
+
+          <ul class="footer-inner_social social">
             <li class="social__item">
               <a class="social__link social__link--twitter" href="#">Мы в Твиттере</a>
             </li>
@@ -133,7 +134,7 @@
               <a class="social__link social__link--other" href="#">Мы во вне</a>
             </li>
           </ul>
-        </div>
+
         <div class="footer-inner__copyright copyright">
           <b class="copyright__text">Разработано:</b>
           <a class="button copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
