@@ -1,4 +1,47 @@
 
 .main-nav{
   background-color: @black30;
+  flex-grow: 1;
+  height: 250px;
+
+}
+.main-nav__wrapper{
+  margin: 0 auto;
+  max-width:720px;
+}
+
+.main-nav__list{
+display:flex;
+flex-direction: column;
+
+
+}
+
+
+@media (min-width: @tablet-width) {
+  .main-nav__list{
+  display:flex;
+  flex-direction: column;
+  }
+
+
+}
+
+@media (min-width: @desktop-width) {
+
+  .main-nav{
+    background-color: inherit;
+  }
+  .main-nav__list{
+  display:flex;
+  flex-direction: row;
+  }
+
+  .main-nav__toggle{
+    display: none;
+
+  }
+
+
+
 }
