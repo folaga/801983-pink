@@ -4,13 +4,17 @@
 }
 .site-list__item {
  .menu;
+ .link-white;
 }
-.site-list__link {
-  a {
-     color: @white;
-     &:hover, &:active, &:link, &:visited {
-       text-decoration: none;
-       color: red;
-      }
-    }
+
+
+@media (min-width: @desktop-width) {
+  .site-list__item {
+    padding-right: 3em;
+  }
+
+}
+
+.site-list__item {
+
 }

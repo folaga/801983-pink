@@ -3,8 +3,8 @@
   background-color: @black30;
   flex-grow: 1;
   height: 250px;
-
 }
+
 .main-nav__wrapper{
   margin: 0 auto;
   max-width:720px;
@@ -13,12 +13,14 @@
 .main-nav__list{
 display:flex;
 flex-direction: column;
-
-
 }
 
 
 @media (min-width: @tablet-width) {
+  .main-nav{
+    height:250px;
+  }
+
   .main-nav__list{
   display:flex;
   flex-direction: column;
@@ -30,18 +32,16 @@ flex-direction: column;
 @media (min-width: @desktop-width) {
 
   .main-nav{
-    background-color: inherit;
+    //background-color: inherit;
+    height:110px;
   }
   .main-nav__list{
-  display:flex;
-  flex-direction: row;
-  }
+    display:flex;
+    flex-direction: row;
+    }
 
   .main-nav__toggle{
     display: none;
-
   }
-
-
 
 }
