@@ -1,0 +1,26 @@
+
+
+.facts__wrapper--hide{
+  display: none;
+}
+
+@media (min-width: @desktop-width) {
+  .facts__wrapper--hide{
+    display: block;
+  }
+  .facts__wrapper{
+    display: flex;
+    justify-content: center;
+  }
+  .facts__picture{
+    width:345px;
+    background-image: url("/img/icon-timer.svg");
+    background-repeat: no-repeat;
+    background-size: 40%;
+  }
+  .facts__title{
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+}
