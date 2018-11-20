@@ -34,9 +34,15 @@
 .link-white(){
 a {
    color: @white;
-   &:hover, &:active, &:link, &:visited {
+   &:link, &:visited {
       text-decoration: none;
-      color: white;
+      //color: white;
+      }
+      &:hover {
+        color: @carmin;
+      }
+      &:active {
+        color: @grey-transparent;
       }
   }
   }
