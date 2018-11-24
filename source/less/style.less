@@ -1,8 +1,40 @@
+html
+{
+	box-sizing:border-box
+}
+
+*,::after,::before
+{
+	box-sizing:inherit
+}
+
+
+ body {
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 27px;
+  font-family: "OpenSans", sans-serif;
+  font-style: normal;
+  background-color: @white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
 @import "normalize.less";
+@import "fontface.less";
+@import "var.less";
+@import "outlines.less";
+@import "main-nav.less";
 @import "visually-hidden.less";
 @import "page-header.less";
 @import "page-main.less";
-@import "main-nav.less";
+@import "button.less";
 @import "download.less";
 @import "advantages.less";
 @import "feedback.less";
@@ -22,20 +54,8 @@
 @import "page-photo.less";
 @import "photos.less";
 @import "post-photo.less";
-@import "var.less";
+
 @import "mixins.less";
-@import "fontface.less";
+@import "facts.less";
 
-body { background: ffffff;
-.fontblack;
- min-width: 320px;
- }
-html
-{
-	box-sizing:border-box
-}
-
-*,::after,::before
-{
-	box-sizing:inherit
-}
+//
