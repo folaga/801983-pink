@@ -1,26 +1,42 @@
-
-
-.facts__wrapper--hide{
+.facts__wrapper--hide {
   display: none;
 }
-
 @media (min-width: @desktop-width) {
-  .facts__wrapper--hide{
+  .facts__wrapper--hide {
     display: block;
   }
-  .facts__wrapper{
+
+  .facts__wrapper {
     display: flex;
     justify-content: center;
   }
-  .facts__picture{
-    width:345px;
+
+  .facts__picture {
+    width: 345px;
     background-image: url("/img/icon-timer.svg");
     background-repeat: no-repeat;
     background-size: 40%;
   }
-  .facts__title{
+
+  .facts__title {
+    padding: 0 15px 10px 0;
     font-size: 30px;
-    font-weight: bold;
+    line-height: 35px;
+    font-weight: 700;
   }
 
+  .facts__text {
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .facts__link {
+    display: block;
+    padding-bottom: 30px;
+    line-height: 24px;
+    font-size: 14px;
+    text-decoration: underline;
+    color: @carmin;
+  }
 }
